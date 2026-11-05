@@ -1,0 +1,33 @@
+@import "reset.css";
+
+h1.main_title.title {
+    color: orange;
+}
+
+.main_title.title {
+    color: violet;
+}
+
+h1 {
+    color: red;
+}
+
+.title {
+    color: blue;
+}
+
+#title {
+    color: brown;
+}
+
+.block_text {
+    color: red;
+}
+
+.block > .block_text {
+    color: green;
+}
+
+.title + .block {
+    color: yellow;
+}
